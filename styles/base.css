@@ -1,16 +1,19 @@
 *{
     box-sizing: border-box;
 }
-body, html {
-    height: 100%;
-    margin:0;
-    padding:0;
-    width: 100%;
-  }
+
 section {
     color: azure;
 }
+body, 
+html {
+  height: 100%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 p{
-    text-align: center;
-    
+    font-size: 30px;
 }

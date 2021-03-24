@@ -25,7 +25,7 @@
 #i{
     background-color: rgb(170, 71, 14);
 }
-@media( min-width: 768px ) {
+@media( min-width: 480px ) {
     #a{
         background-color: rgb(161, 164, 196);
     }
@@ -52,5 +52,34 @@
     }
     #i{
         background-color: rgb(26, 18, 48);
+    }
+}
+@media( min-width: 769px ) {
+    #a{
+        background-color: rgb(43, 50, 129);
+    }
+    #b{
+        background-color: rgb(134, 103, 99);
+    }
+    #c{
+        background-color: rgb(0, 66, 44);
+    }
+    #d{
+        background-color: rgb(136, 255, 0);
+    }
+    #e{
+        background-color: rgb(133, 133, 133);
+    }
+    #f{
+        background-color: rgb(73, 44, 44);
+    }
+    #g{
+        background-color: rgb(250, 246, 23);
+    }
+    #h{
+        background-color: rgb(100, 199, 81);
+    }
+    #i{
+        background-color: rgb(88, 61, 163);
     }
 }
